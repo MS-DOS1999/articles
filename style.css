@@ -1,0 +1,48 @@
+
+body{
+  margin: 0;
+}
+img{
+  float: left;
+
+}
+h2{
+ font-family: cursive;
+ border: 2px ridge red;
+ border-radius: 5px;
+ background-color: rgba(255, 255, 255, 0.5);
+}
+.para{
+  border: 2px ridge red;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.bot{
+  clear: both;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bot:hover{
+  transform: scale(1.5);
+}
+
+button{
+position: absolute;
+right: 0;
+top: 0;
+border-radius: 5px;
+
+}
+article{
+  position: relative;
+  background-image: url(http://i.imgur.com/mCesV3l.jpg);
+  background-size:cover;
+  border: 1px solid black;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+}
